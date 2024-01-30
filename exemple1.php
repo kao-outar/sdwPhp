@@ -35,6 +35,11 @@
             echo $date_du_jour;
             echo ' Et il est : ';
             echo $heure_courante;
+
+            
+            echo 'Votre adresse IP est : '.$_SERVER['REMOTE_ADDR'];
+
+
         ?>
     </body>
 </html>
