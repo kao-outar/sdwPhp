@@ -39,7 +39,14 @@
             
             echo 'Votre adresse IP est : '.$_SERVER['REMOTE_ADDR'];
 
+            // Concaténer deux chaînes
+            $nom = "LA GLOBULE";
+            echo 'Bonjour ';
+            echo $nom;
+            echo ' !';
 
+            $nom = "LA GLOBULE";
+            echo 'Bonjour '.$nom.' !';
         ?>
     </body>
 </html>
