@@ -8,7 +8,6 @@
 <body>
 
 <?php
-// Création d'un tableau associatif avec des informations sur une personne
 $personne = array(
     "nom" => "Arare",
     "prenom" => "Kaoutar",
